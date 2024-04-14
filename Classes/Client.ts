@@ -2,8 +2,6 @@ import { Client, Intents, ClientOptions } from 'discord.js-selfbot-v13';
 
 import { joinVoiceChannel, VoiceConnectionStatus } from "@discordjs/voice";
 
-
-
 interface VoiceOptions extends ClientOptions {
 
     token: string[];
